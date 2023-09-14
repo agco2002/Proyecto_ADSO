@@ -263,10 +263,11 @@ nav ul li ul li a:hover{
     display: none;
 }
 
-@media screen and (max-width: 720px){
+@media(max-width: 800px){
 
-    .search {
+    .search{
         display:flex;
+        width: 200px;
     }
     
     .header__superior{
